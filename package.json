@@ -1,0 +1,28 @@
+{
+  "name": "github-whitespace-toggle",
+  "version": "1.0.0",
+  "description": "Adds a UI to toggle whitespace diffing for Github",
+  "main": "./src/js/octowhite.js",
+  "dependencies": {
+    "eslint": "^3.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinsthomas/Octowhite.git"
+  },
+  "keywords": [
+    "github",
+    "whitespace",
+    "diff"
+  ],
+  "author": "Justin S Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinsthomas/Octowhite/issues"
+  },
+  "homepage": "https://github.com/justinsthomas/Octowhite#readme"
+}
