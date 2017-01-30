@@ -1,0 +1,15 @@
+.idea
+.ropeproject
+node_modules/
+bower_components/
+.ackrc
+.projectile
+**/.tern-port
+git_stats/
+.DS_store
+.java-version
+.tern-project
+.#*
+
+notes/
+.vscode/launch.json
