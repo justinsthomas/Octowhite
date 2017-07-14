@@ -10,6 +10,10 @@ function getNoWhitespaceUrl(url) {
     return insertParameter(url, 'w', '1');
 }
 
+function isFilesView() {
+    return window.location.href.includes('/files');
+}
+
 function getUrlToReload() {
     let url = document.location.href;
 
@@ -44,7 +48,7 @@ function handleUrl(firstLoad) {
     let noWhitespace;
 
     // Initial load? Histpory.replaceState with the `w=1` query param
-    if (firstLoad && !displayWhitespace) {
+    if (firstLoad && isFilesView() && !displayWhitespace) {
         window.history.replaceState({}, '', `${window.location.href}?w=1`);
         handleUrl(false);
     } else {
